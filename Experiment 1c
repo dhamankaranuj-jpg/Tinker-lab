@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Hobbies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+      font-size: 36px;
+    }
+
+    ol {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      font-size: 24px;
+    }
+
+    ol li {
+      margin-bottom: 15px;
+      padding: 10px;
+      border-left: 8px solid #3498db;
+      background-color: #ecf0f1;
+    }
+
+    ol li:nth-child(1) {
+      color: #e74c3c; /* Red */
+    }
+
+    ol li:nth-child(2) {
+      color: #2980b9; /* Blue */
+    }
+
+    ol li:nth-child(3) {
+      color: #27ae60; /* Green */
+    }
+
+    ol li:nth-child(4) {
+      color: #f39c12; /* Orange */
+    }
+
+    ol li:nth-child(5) {
+      color: #8e44ad; /* Purple */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌈 My Hobbies</h1>
+
+  <ol>
+    <li>📚 Reading Books</li>
+    <li>⚽ Playing Football</li>
+    <li>🎧 Listening to Music</li>
+    <li>🎨 Drawing and Painting</li>
+    <li>💻 Coding and Programming</li>
+  </ol>
+
+</body>
+</html>
