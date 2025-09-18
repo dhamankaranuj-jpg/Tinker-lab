@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Colored Table with Answers</title>
+  <style>
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+    }
+
+    td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #e6ffe6;
+    }
+
+    .fail {
+      color: red;
+      font-weight: bold;
+    }
+
+    .pass {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align:center;">Student Marks Table</h2>
+
+  <table border="1">
+    <tr>
+      <th>Student</th>
+      <th>Subject</th>
+      <th>Marks</th>
+      <th>Result</th>
+    </tr>
+    <tr>
+      <td>Alice</td>
+      <td>Math</td>
+      <td>85</td>
+      <td class="pass">Pass</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>Science</td>
+      <td>45</td>
+      <td class="fail">Fail</td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td>English</td>
+      <td>75</td>
+      <td class="pass">Pass</td>
+    </tr>
+    <tr>
+      <td>Diana</td>
+      <td>History</td>
+      <td>55</td>
+      <td class="pass">Pass</td>
+    </tr>
+    <tr>
+      <td>Edward</td>
+      <td>Math</td>
+      <td>30</td>
+      <td class="fail">Fail</td>
+    </tr>
+  </table>
+
+</body>
+</html>
